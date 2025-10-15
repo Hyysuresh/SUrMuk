@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { CartContext } from '../context/CartContext'
-import { AuthContext } from '../context/AuthContext'
+import { CartContext } from '../../context/CartContext'
+import { AuthContext } from '../../context/AuthContext'
 import axios from 'axios'
 
 export default function Cart() {

@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    container_name: surmuk-backend
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./uploads:/usr/src/app/uploads
+    depends_on:
+      - mongo
+
+  frontend:
+    build: ./frontend
+    container_name: surmuk-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  mongo:
+    image: mongo:6.0
+    container_name: surmuk-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
+
