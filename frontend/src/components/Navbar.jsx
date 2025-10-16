@@ -61,6 +61,3 @@ export default function Navbar() {
     </nav>
   )
 }
-import phone1 from '../assets/Sopt.png';
-
-<img src={Sopt} alt="phone" className="rounded-lg" />
