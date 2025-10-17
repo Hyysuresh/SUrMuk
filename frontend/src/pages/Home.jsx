@@ -26,7 +26,7 @@ export default function Home() {
     { name: 'Clothing', value: 'clothing', color: 'bg-pink-600' },
     { name: 'Home Decor', value: 'home-decor', color: 'bg-green-600' },
     { name: 'Health Care', value: 'health-care', color: 'bg-purple-600' },
-    { name: 'Makeup', value: 'makeup', color: 'bg-yellow-600' },
+    { name: 'Shoes', value: 'Shoes', color: 'bg-yellow-600' },
     { name: 'Accessories', value: 'accessories', color: 'bg-red-600' },
   ]
 

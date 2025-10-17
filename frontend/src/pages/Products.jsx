@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 // 🖼 Local image imports
 import shoes from "../assets/products/p1/thumbnail.webp";
-import shoes from "../assets/products/p2/thumbnail.webp";
-import shoes from "../assets/products/p3/thumbnail.webp";
-import shoes from "../assets/products/p4/thumbnail.webp";
-import shoes from "../assets/products/p5/thumbnail.webp";
-import shoes from "../assets/products/p6/thumbnail.webp";
-import shoes from "../assets/products/p7/thumbnail.webp";
-import shoes from "../assets/products/p8/thumbnail.webp";
-import shoes from "../assets/products/p9/thumbnail.webp";
+import shoes1 from "../assets/products/p2/thumbnail.webp";
+import shoes2 from "../assets/products/p3/thumbnail.webp";
+import shoes3 from "../assets/products/p4/thumbnail.webp";
+import shoes4 from "../assets/products/p5/thumbnail.webp";
+import shoes5 from "../assets/products/p6/thumbnail.webp";
+import shoes6 from "../assets/products/p7/thumbnail.webp";
+import shoes7 from "../assets/products/p8/thumbnail.webp";
+import shoes8 from "../assets/products/p9/thumbnail.webp";
 export default function Products() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -32,7 +32,7 @@ export default function Products() {
         description: "Noise-cancelling over-ear headphones with deep bass.",
         price: 4999,
         discount: 15,
-        image: headphones,
+        image: shoes1,
       },
       {
         _id: "3",
@@ -40,7 +40,7 @@ export default function Products() {
         description: "Tracks heart rate, sleep, and steps with accuracy.",
         price: 1999,
         discount: 25,
-        image: watch,
+        image: shoes2,
       },
       {
         _id: "4",
@@ -48,7 +48,47 @@ export default function Products() {
         description: "Complete makeup kit for professional and casual use.",
         price: 1499,
         discount: 30,
-        image: makeupkit,
+        image: shoes3,
+      },
+       {
+        _id: "5",
+        title: "Professional Makeup Kit",
+        description: "Complete makeup kit for professional and casual use profasnal.",
+        price: 1000,
+        discount: 30,
+        image: shoes4,
+      },
+       {
+        _id: "6",
+        title: "Professional Makeup Kit",
+        description: "Complete makeup kit for professional and casual use.",
+        price: 1499,
+        discount: 30,
+        image: shoes5,
+      },
+       {
+        _id: "7",
+        title: "Professional Makeup Kit",
+        description: "Complete makeup kit for professional and casual use.",
+        price: 1499,
+        discount: 30,
+        image: shoes6,
+      },
+       {
+        _id: "8",
+        title: "Professional Makeup Kit",
+        description: "Complete makeup kit for professional and casual use.",
+        price: 1499,
+        discount: 30,
+        image: shoes7,
+      },
+       {
+        _id: "9",
+        title: "Professional Makeup Kit",
+        description: "Complete makeup kit for professional and casual use.",
+        price: 1499,
+        discount: 30,
+        image: shoes8,
       },
     ];
 
