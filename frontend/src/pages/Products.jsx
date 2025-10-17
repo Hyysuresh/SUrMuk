@@ -2,11 +2,15 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 // 🖼 Local image imports
-import shoes from "../assets/products/p1.png";
-import headphones from "../assets/products/p2.png";
-import watch from "../assets/products/p3";
-import makeupkit from "../assets/products/p4.png";
-
+import shoes from "../assets/products/p1/thumbnail.webp";
+import shoes from "../assets/products/p2/thumbnail.webp";
+import shoes from "../assets/products/p3/thumbnail.webp";
+import shoes from "../assets/products/p4/thumbnail.webp";
+import shoes from "../assets/products/p5/thumbnail.webp";
+import shoes from "../assets/products/p6/thumbnail.webp";
+import shoes from "../assets/products/p7/thumbnail.webp";
+import shoes from "../assets/products/p8/thumbnail.webp";
+import shoes from "../assets/products/p9/thumbnail.webp";
 export default function Products() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -19,7 +23,7 @@ export default function Products() {
         title: "Running Shoes",
         description: "Comfortable lightweight running shoes for daily use.",
         price: 2999,
-        discount: 20,
+        discount: 50,
         image: shoes,
       },
       {
