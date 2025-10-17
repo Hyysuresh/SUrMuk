@@ -1,7 +1,7 @@
 // src/constants/index.js
-import airmax from "../assets/airmax.png";
-import jordan from "../assets/jordan.png";
-import nikeLogo from "../assets/nikeLogo.png";
+import airmax from "../assets/p1/thumbnail.webp";
+import jordan from "../assets/p2/thumbnail.webp";
+import nikeLogo from "../assets/p3/thumbnail.webp";
 
 export const products = [
   {
