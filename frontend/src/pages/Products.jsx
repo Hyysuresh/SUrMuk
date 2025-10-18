@@ -10,7 +10,7 @@ import shoes4 from "../assets/products/p5/thumbnail.webp";
 import shoes5 from "../assets/products/p6/thumbnail.webp";
 import shoes6 from "../assets/products/p7/thumbnail.webp";
 import shoes7 from "../assets/products/p8/thumbnail.webp";
-import shoes8 from "../assets/products/p9/thumbnail.webp";
+import shoes8 from "../assets/products/p9/thumbnail.jpeg";
 export default function Products() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
